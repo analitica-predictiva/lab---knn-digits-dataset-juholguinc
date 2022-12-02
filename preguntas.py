@@ -51,7 +51,6 @@ def pregunta_02():
         # If True, returns (data, target) instead of a Bunch
         # object.
         return_X_y=False)
-
     # Cree los vectors de características y de salida
     n_samples = len(digits.images)
     X = digits.data.reshape((n_samples, -1))
